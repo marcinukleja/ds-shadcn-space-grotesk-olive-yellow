@@ -1,21 +1,9 @@
-# React + TypeScript + Vite + shadcn/ui
+# shadcn/ui – Olive & Yellow, Space Grotesk
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+A shadcn/ui component library with minimal modification, using **Space Grotesk** as the font. Configured with an **olive base color**, **yellow theme color**, and **medium roundness**.
 
-## Adding components
+Components are sourced directly from the shadcn registry with only the theme tokens and font adjusted – no structural rewrites.
 
-To add components to your app, run the following command:
+## Purpose
 
-```bash
-npx shadcn@latest add button
-```
-
-This will place the ui components in the `src/components` directory.
-
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button"
-```
+This repository is intended for AI builders to test how they consume and navigate real shadcn component code. Explore how components are structured, how tokens flow, and how the design system is wired together.
